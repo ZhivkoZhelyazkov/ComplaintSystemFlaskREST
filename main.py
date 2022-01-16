@@ -3,6 +3,7 @@ from flask_restful import Api
 from flask_migrate import Migrate
 from psycopg2.errorcodes import UNIQUE_VIOLATION
 from werkzeug.exceptions import BadRequest, InternalServerError
+
 from flask_cors import CORS
 from config import DevApplication
 from db import db
